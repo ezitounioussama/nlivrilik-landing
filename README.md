@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NlivriLik — Landing Page
 
-## Getting Started
+Conversion-focused landing page for NlivriLik (express delivery, Morocco). Every CTA drives users to WhatsApp (`wa.me/212752904926`) with a localized prefilled message.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router, Turbopack) + **TypeScript**
+- **Tailwind CSS v4** + shadcn (Base UI)
+- **MagicUI** components for all animations (bento grid, marquee, blur-fade, number ticker, aurora text, word rotate, border beam, ripple, shimmer/pulsating buttons, dot pattern)
+- **Dark / light mode**: MagicUI `animated-theme-toggler` (View Transitions API), persisted in `localStorage("theme")`
+- **i18n**: FR / EN / AR via JSON files (`src/i18n/locales/`), no URL prefix, persisted in `localStorage("nlivrilik-locale")` with a Zustand store. Arabic switches the page to RTL and the Cairo font.
+- **Fonts**: Bricolage Grotesque (headings), Manrope (body), Cairo (Arabic) via `next/font`
+
+## Commands
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev      # dev server (Turbopack)
+pnpm build    # production build
+pnpm start    # serve production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+  app/              layout (fonts, theme init, metadata), page, globals.css (brand palette)
+  components/
+    sections/       navbar, hero, stats, services, how-it-works, testimonials, faq, cta, footer
+    ui/             MagicUI components (installed via shadcn registry)
+    icons.tsx       WhatsApp + social brand SVGs
+  i18n/             Zustand locale store + fr/en/ar JSON dictionaries
+  lib/site.ts       WhatsApp number, socials, wa.me link builder
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## SEO
 
-## Learn More
+- Rich metadata + Open Graph + Twitter cards in `src/app/layout.tsx` (FR keywords for Rabat/Salé/Témara/Kénitra + Arabic terms)
+- JSON-LD structured data (`LocalBusiness`, `WebSite`, `FAQPage`) in `src/components/json-ld.tsx`
+- `src/app/sitemap.ts` → `/sitemap.xml`, `src/app/robots.ts` → `/robots.txt` (AI crawlers allowed)
+- `public/llms.txt` for AI answer engines
+- Generated Open Graph image at `/opengraph-image` (`src/app/opengraph-image.tsx`)
 
-To learn more about Next.js, take a look at the following resources:
+## Editing content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Copy/translations: `src/i18n/locales/{fr,en,ar}.json`
+- WhatsApp number & socials: `src/lib/site.ts`
+- Brand colors: CSS variables in `src/app/globals.css` (`--primary` orange, `--brand-green`, `--wa` WhatsApp green)
