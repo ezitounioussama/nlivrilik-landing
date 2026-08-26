@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "services": "Services",
+    "how": "Comment ça marche",
+    "testimonials": "Avis",
+    "faq": "FAQ",
+    "cta": "Commander"
+  },
+  "hero": {
+    "badge": "Livraison express partout au Maroc 🇲🇦",
+    "titleA": "On livre vos",
+    "words": ["colis", "courses", "repas", "documents"],
+    "titleB": "en un éclair.",
+    "subtitle": "NlivriLik, c'est votre coursier de confiance. Un simple message WhatsApp et on s'occupe de tout — récupération, livraison, suivi en temps réel.",
+    "ctaPrimary": "Commander sur WhatsApp",
+    "ctaSecondary": "Découvrir nos services",
+    "trust": "+1200 clients nous font déjà confiance",
+    "chat": {
+      "name": "NlivriLik",
+      "online": "en ligne",
+      "q": "Salam ! J'ai un colis urgent à envoyer de Rabat à Salé 📦",
+      "a1": "Salam ! Pas de souci, un livreur passe le récupérer dans 15 min 🛵",
+      "a2": "Vous pouvez suivre la course en temps réel ici 👇",
+      "status": "Livré en 35 min",
+      "reply": "Répondre…"
+    }
+  },
+  "stats": {
+    "deliveries": "Livraisons réussies",
+    "clients": "Clients fidèles",
+    "satisfaction": "% de satisfaction",
+    "support": "Support client 24/7"
+  },
+  "services": {
+    "eyebrow": "Nos services",
+    "title": "Un service pour chaque besoin",
+    "subtitle": "Du colis urgent aux courses du quotidien, on s'adapte à vous — pas l'inverse.",
+    "cta": "Commander",
+    "express": {
+      "name": "Livraison Express",
+      "description": "Vos colis livrés en temps record grâce à notre réseau de livreurs réactifs et professionnels."
+    },
+    "groceries": {
+      "name": "Courses & Épicerie",
+      "description": "Vos courses livrées à domicile, rapidement et en toute sécurité, aux créneaux qui vous arrangent."
+    },
+    "meals": {
+      "name": "Repas & Restaurants",
+      "description": "Vos plats préférés livrés chauds, où que vous soyez."
+    },
+    "tracking": {
+      "name": "Suivi en temps réel",
+      "description": "Suivez votre livraison à chaque étape, de la récupération à la remise en main propre."
+    },
+    "documents": {
+      "name": "Documents & urgences",
+      "description": "Documents importants, médicaments et envois sensibles — transportés en toute confidentialité, remis en main propre."
+    }
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "Commander n'a jamais été aussi simple",
+    "subtitle": "Trois étapes, zéro application à installer. Tout se passe sur WhatsApp.",
+    "steps": [
+      {
+        "title": "Envoyez un message",
+        "description": "Dites-nous quoi livrer, d'où et vers où — directement sur WhatsApp."
+      },
+      {
+        "title": "On récupère",
+        "description": "Un livreur proche de vous prend en charge votre commande en quelques minutes."
+      },
+      {
+        "title": "C'est livré",
+        "description": "Suivez la course en direct et recevez votre livraison en main propre."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Avis clients",
+    "title": "Ils nous recommandent",
+    "subtitle": "La confiance de nos clients est notre meilleure publicité.",
+    "items": [
+      { "text": "Service incroyable ! Rapide, fiable et toujours souriant.", "author": "Yassine B.", "role": "Rabat" },
+      { "text": "J'utilise NlivriLik pour toutes les livraisons de ma boutique. Un vrai partenaire.", "author": "Salma E.", "role": "Commerçante, Salé" },
+      { "text": "Colis récupéré en 10 minutes et livré dans l'heure. Impressionnant.", "author": "Ahmed R.", "role": "Témara" },
+      { "text": "Le suivi en temps réel change tout. Je sais toujours où en est ma commande.", "author": "Fatima Zahra K.", "role": "Rabat" },
+      { "text": "Mes courses livrées avant même que je rentre du travail. Merci !", "author": "Mehdi T.", "role": "Salé" },
+      { "text": "Un simple message WhatsApp et c'est réglé. Le meilleur service de livraison que j'ai testé.", "author": "Khadija M.", "role": "Kénitra" },
+      { "text": "Documents confidentiels livrés le jour même. Professionnalisme au top.", "author": "Omar L.", "role": "Notaire, Rabat" },
+      { "text": "Toujours ponctuels, même le week-end. Je recommande à 100%.", "author": "Imane S.", "role": "Rabat" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant de commander.",
+    "items": [
+      {
+        "q": "Dans quelles villes livrez-vous ?",
+        "a": "Nous couvrons Rabat, Salé, Témara, Kénitra et leurs environs. Pour une autre destination, contactez-nous sur WhatsApp — on trouve toujours une solution."
+      },
+      {
+        "q": "Combien coûte une livraison ?",
+        "a": "Le tarif dépend de la distance et du type de course. Envoyez-nous les détails sur WhatsApp et recevez un devis immédiat, sans engagement."
+      },
+      {
+        "q": "En combien de temps ma commande est-elle livrée ?",
+        "a": "En moyenne, un livreur récupère votre commande en 15 minutes et la livre en moins d'une heure selon la distance."
+      },
+      {
+        "q": "Comment payer ?",
+        "a": "Paiement en espèces à la livraison ou par virement. Simple et sans surprise."
+      },
+      {
+        "q": "Puis-je suivre ma livraison ?",
+        "a": "Oui ! Vous recevez un lien de suivi en temps réel dès que le livreur prend en charge votre commande."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à vous faire livrer ?",
+    "subtitle": "Écrivez-nous maintenant, on s'occupe du reste. Disponibles 7j/7, de 8h à 23h.",
+    "button": "Démarrer sur WhatsApp",
+    "or": "ou appelez-nous au"
+  },
+  "footer": {
+    "tagline": "Votre coursier de confiance, partout au Maroc.",
+    "linksTitle": "Navigation",
+    "contactTitle": "Contact",
+    "followTitle": "Suivez-nous",
+    "whatsapp": "WhatsApp",
+    "location": "Rabat · Salé · Témara · Kénitra",
+    "rights": "Tous droits réservés.",
+    "madeIn": "Fait avec ❤️ au Maroc"
+  },
+  "whatsapp": {
+    "prefill": "Bonjour NlivriLik ! Je souhaite passer une commande 📦",
+    "fab": "Commander"
+  }
+}

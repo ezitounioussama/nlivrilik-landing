@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "services": "Services",
+    "how": "How it works",
+    "testimonials": "Reviews",
+    "faq": "FAQ",
+    "cta": "Order now"
+  },
+  "hero": {
+    "badge": "Express delivery across Morocco 🇲🇦",
+    "titleA": "We deliver your",
+    "words": ["parcels", "groceries", "meals", "documents"],
+    "titleB": "in a flash.",
+    "subtitle": "NlivriLik is your trusted courier. One WhatsApp message and we handle everything — pickup, delivery, and real-time tracking.",
+    "ctaPrimary": "Order on WhatsApp",
+    "ctaSecondary": "Explore our services",
+    "trust": "Already trusted by 1200+ customers",
+    "chat": {
+      "name": "NlivriLik",
+      "online": "online",
+      "q": "Hi! I have an urgent parcel to send from Rabat to Salé 📦",
+      "a1": "Hello! No problem, a courier will pick it up in 15 min 🛵",
+      "a2": "You can track the ride in real time here 👇",
+      "status": "Delivered in 35 min",
+      "reply": "Reply…"
+    }
+  },
+  "stats": {
+    "deliveries": "Successful deliveries",
+    "clients": "Loyal customers",
+    "satisfaction": "% satisfaction",
+    "support": "24/7 customer support"
+  },
+  "services": {
+    "eyebrow": "Our services",
+    "title": "A service for every need",
+    "subtitle": "From urgent parcels to daily groceries, we adapt to you — not the other way around.",
+    "cta": "Order",
+    "express": {
+      "name": "Express Delivery",
+      "description": "Your parcels delivered in record time thanks to our network of fast, professional couriers."
+    },
+    "groceries": {
+      "name": "Groceries",
+      "description": "Your groceries delivered to your door quickly and safely, at the time slots that suit you."
+    },
+    "meals": {
+      "name": "Meals & Restaurants",
+      "description": "Your favorite dishes delivered hot, wherever you are."
+    },
+    "tracking": {
+      "name": "Real-time tracking",
+      "description": "Track your delivery at every stage, from pickup to hand delivery."
+    },
+    "documents": {
+      "name": "Documents & urgent runs",
+      "description": "Important documents, medicine and sensitive shipments — transported confidentially and hand-delivered."
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Ordering has never been this simple",
+    "subtitle": "Three steps, no app to install. Everything happens on WhatsApp.",
+    "steps": [
+      {
+        "title": "Send a message",
+        "description": "Tell us what to deliver, from where and to where — right on WhatsApp."
+      },
+      {
+        "title": "We pick it up",
+        "description": "A courier near you takes over your order within minutes."
+      },
+      {
+        "title": "It's delivered",
+        "description": "Follow the ride live and receive your delivery in person."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Customer reviews",
+    "title": "They recommend us",
+    "subtitle": "Our customers' trust is our best advertising.",
+    "items": [
+      { "text": "Amazing service! Fast, reliable and always friendly.", "author": "Yassine B.", "role": "Rabat" },
+      { "text": "I use NlivriLik for all my shop's deliveries. A true partner.", "author": "Salma E.", "role": "Shop owner, Salé" },
+      { "text": "Parcel picked up in 10 minutes and delivered within the hour. Impressive.", "author": "Ahmed R.", "role": "Témara" },
+      { "text": "Real-time tracking changes everything. I always know where my order is.", "author": "Fatima Zahra K.", "role": "Rabat" },
+      { "text": "My groceries delivered before I even got home from work. Thank you!", "author": "Mehdi T.", "role": "Salé" },
+      { "text": "One WhatsApp message and it's done. The best delivery service I've tried.", "author": "Khadija M.", "role": "Kénitra" },
+      { "text": "Confidential documents delivered the same day. Top professionalism.", "author": "Omar L.", "role": "Notary, Rabat" },
+      { "text": "Always on time, even on weekends. 100% recommended.", "author": "Imane S.", "role": "Rabat" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know before ordering.",
+    "items": [
+      {
+        "q": "Which cities do you deliver to?",
+        "a": "We cover Rabat, Salé, Témara, Kénitra and their surroundings. For any other destination, message us on WhatsApp — we always find a solution."
+      },
+      {
+        "q": "How much does a delivery cost?",
+        "a": "The price depends on the distance and the type of ride. Send us the details on WhatsApp and get an instant quote, no commitment."
+      },
+      {
+        "q": "How fast is my order delivered?",
+        "a": "On average, a courier picks up your order within 15 minutes and delivers it in under an hour depending on the distance."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "Cash on delivery or bank transfer. Simple, with no surprises."
+      },
+      {
+        "q": "Can I track my delivery?",
+        "a": "Yes! You receive a real-time tracking link as soon as the courier takes over your order."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to get delivered?",
+    "subtitle": "Message us now, we handle the rest. Available 7 days a week, 8am to 11pm.",
+    "button": "Start on WhatsApp",
+    "or": "or call us at"
+  },
+  "footer": {
+    "tagline": "Your trusted courier, everywhere in Morocco.",
+    "linksTitle": "Navigation",
+    "contactTitle": "Contact",
+    "followTitle": "Follow us",
+    "whatsapp": "WhatsApp",
+    "location": "Rabat · Salé · Témara · Kénitra",
+    "rights": "All rights reserved.",
+    "madeIn": "Made with ❤️ in Morocco"
+  },
+  "whatsapp": {
+    "prefill": "Hello NlivriLik! I would like to place an order 📦",
+    "fab": "Order now"
+  }
+}
