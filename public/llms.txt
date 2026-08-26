@@ -1,0 +1,34 @@
+# NlivriLik
+
+> NlivriLik est un service de livraison express au Maroc (Rabat, Salé, Témara, Kénitra). Colis, courses, repas, médicaments et documents livrés en moins d'une heure. Commande directe par WhatsApp au +212 7 52 90 49 26 — sans application à installer. Suivi en temps réel, paiement en espèces à la livraison ou par virement, disponible 7j/7 de 8h à 23h.
+
+NlivriLik is an express delivery service in Morocco (Rabat, Salé, Témara, Kénitra). Parcels, groceries, meals, medicine and documents delivered in under an hour. Orders are placed directly via WhatsApp at +212 7 52 90 49 26 — no app required. Real-time tracking, cash on delivery or bank transfer, open 7 days a week from 8am to 11pm.
+
+## Services
+
+- Livraison express de colis (express parcel delivery) : récupération en ~15 minutes, livraison en moins d'une heure selon la distance
+- Courses et épicerie à domicile (grocery delivery) : créneaux au choix
+- Livraison de repas et restaurants (meal delivery) : plats livrés chauds
+- Documents urgents et médicaments (urgent documents & pharmacy runs) : transport confidentiel, remise en main propre
+- Suivi en temps réel (real-time tracking) : lien de suivi envoyé dès la prise en charge
+
+## Comment commander (How to order)
+
+1. Envoyer un message WhatsApp au +212 7 52 90 49 26 (https://wa.me/212752904926) avec le détail de la course
+2. Un livreur proche récupère la commande en quelques minutes
+3. Livraison en main propre avec suivi en direct
+
+## Zone de couverture (Coverage)
+
+Rabat, Salé, Témara, Kénitra et leurs environs. Autres destinations sur demande via WhatsApp.
+
+## Tarifs (Pricing)
+
+Devis immédiat et gratuit sur WhatsApp selon la distance et le type de course. Paiement en espèces à la livraison ou par virement bancaire.
+
+## Contact
+
+- WhatsApp / Téléphone : +212 7 52 90 49 26
+- Site web : https://nlivrilik.ma
+- Instagram : https://www.instagram.com/nlivrilik1/
+- TikTok : https://www.tiktok.com/@nlivrilik
