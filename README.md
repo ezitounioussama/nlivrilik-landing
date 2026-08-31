@@ -1,6 +1,6 @@
 # NlivriLik — Landing Page
 
-Conversion-focused landing page for NlivriLik (express delivery, Morocco). Every CTA drives users to WhatsApp (`wa.me/212752904926`) with a localized prefilled message.
+Conversion-focused landing page for NlivriLik (express delivery, Morocco). Every CTA drives users to WhatsApp (`wa.me/212610336499`) with a localized prefilled message.
 
 ## Stack
 

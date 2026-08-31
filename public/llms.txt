@@ -1,8 +1,8 @@
 # NlivriLik
 
-> NlivriLik est un service de livraison express au Maroc (Rabat, Salé, Témara, Kénitra). Colis, courses, repas, médicaments et documents livrés en moins d'une heure. Commande directe par WhatsApp au +212 7 52 90 49 26 — sans application à installer. Suivi en temps réel, paiement en espèces à la livraison ou par virement, disponible 7j/7 de 8h à 23h.
+> NlivriLik est un service de livraison express au Maroc (Rabat, Salé, Témara, Kénitra). Colis, courses, repas, médicaments et documents livrés en moins d'une heure. Commande directe par WhatsApp au +212 6 10 33 64 99 — sans application à installer. Suivi en temps réel, paiement en espèces à la livraison ou par virement, disponible 7j/7 de 8h à 23h.
 
-NlivriLik is an express delivery service in Morocco (Rabat, Salé, Témara, Kénitra). Parcels, groceries, meals, medicine and documents delivered in under an hour. Orders are placed directly via WhatsApp at +212 7 52 90 49 26 — no app required. Real-time tracking, cash on delivery or bank transfer, open 7 days a week from 8am to 11pm.
+NlivriLik is an express delivery service in Morocco (Rabat, Salé, Témara, Kénitra). Parcels, groceries, meals, medicine and documents delivered in under an hour. Orders are placed directly via WhatsApp at +212 6 10 33 64 99 — no app required. Real-time tracking, cash on delivery or bank transfer, open 7 days a week from 8am to 11pm.
 
 ## Services
 
@@ -14,7 +14,7 @@ NlivriLik is an express delivery service in Morocco (Rabat, Salé, Témara, Kén
 
 ## Comment commander (How to order)
 
-1. Envoyer un message WhatsApp au +212 7 52 90 49 26 (https://wa.me/212752904926) avec le détail de la course
+1. Envoyer un message WhatsApp au +212 6 10 33 64 99 (https://wa.me/212610336499) avec le détail de la course
 2. Un livreur proche récupère la commande en quelques minutes
 3. Livraison en main propre avec suivi en direct
 
@@ -28,7 +28,7 @@ Devis immédiat et gratuit sur WhatsApp selon la distance et le type de course. 
 
 ## Contact
 
-- WhatsApp / Téléphone : +212 7 52 90 49 26
+- WhatsApp / Téléphone : +212 6 10 33 64 99
 - Site web : https://nlivrilik.ma
 - Instagram : https://www.instagram.com/nlivrilik1/
 - TikTok : https://www.tiktok.com/@nlivrilik

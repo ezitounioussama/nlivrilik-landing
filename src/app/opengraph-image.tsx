@@ -98,7 +98,7 @@ export default function OpengraphImage() {
             borderRadius: 9999,
           }}
         >
-          Commandez sur WhatsApp · +212 7 52 90 49 26
+          Commandez sur WhatsApp · +212 6 10 33 64 99
         </div>
       </div>
     ),

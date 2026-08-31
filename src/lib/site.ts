@@ -1,8 +1,8 @@
 export const site = {
   name: "NlivriLik",
   url: "https://nlivrilik.ma",
-  whatsappNumber: "212752904926",
-  phoneDisplay: "+212 7 52 90 49 26",
+  whatsappNumber: "212610336499",
+  phoneDisplay: "+212 6 10 33 64 99",
   socials: {
     instagram: "https://www.instagram.com/nlivrilik1/",
     facebook: "https://www.facebook.com/profile.php?id=61575807004445",
