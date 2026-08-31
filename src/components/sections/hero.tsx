@@ -121,20 +121,24 @@ export function Hero() {
           </BlurFade>
 
           <BlurFade delay={0.15}>
-            <h1 className="text-4xl font-bold tracking-tight text-balance sm:text-5xl lg:text-6xl">
-              {t("hero.titleA")}{" "}
-              <WordRotate
-                words={t<string[]>("hero.words")}
-                duration={2800}
-                motionProps={{
-                  initial: { opacity: 0, filter: "blur(8px)", scale: 0.96 },
-                  animate: { opacity: 1, filter: "blur(0px)", scale: 1 },
-                  exit: { opacity: 0, filter: "blur(8px)", scale: 0.96 },
-                  transition: { duration: 0.35, ease: "easeOut" },
-                }}
-                className="text-primary underline decoration-primary/30 decoration-4 underline-offset-8"
-              />
-              <br />
+            {/* Fluid font (clamp) sized so "titleA + longest word" fits on one
+                line at every viewport, in every locale — the heading is always
+                exactly 2 lines, so the rotating word never shifts the layout. */}
+            <h1 className="text-[clamp(1.625rem,7vw,3.5rem)] font-bold tracking-tight lg:text-[clamp(2rem,3.55vw,2.625rem)]">
+              <span className="block whitespace-nowrap">
+                {t("hero.titleA")}{" "}
+                <WordRotate
+                  words={t<string[]>("hero.words")}
+                  duration={2800}
+                  motionProps={{
+                    initial: { opacity: 0, filter: "blur(8px)", scale: 0.96 },
+                    animate: { opacity: 1, filter: "blur(0px)", scale: 1 },
+                    exit: { opacity: 0, filter: "blur(8px)", scale: 0.96 },
+                    transition: { duration: 0.35, ease: "easeOut" },
+                  }}
+                  className="text-primary underline decoration-primary/30 decoration-4 underline-offset-8"
+                />
+              </span>
               <AuroraText colors={AURORA_COLORS}>{t("hero.titleB")}</AuroraText>
             </h1>
           </BlurFade>

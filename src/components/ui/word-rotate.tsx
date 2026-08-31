@@ -37,7 +37,19 @@ export function WordRotate({
   return (
     // Stacked grid crossfade: the exiting and entering words share the same
     // cell, so the line never collapses and surrounding text never jumps.
+    // Every word is also rendered as an invisible sizer in that cell, so the
+    // cell is always as wide as the longest word — the heading keeps the same
+    // line wrapping (and page height) no matter which word is showing.
     <span className="inline-grid justify-items-start align-baseline [&>span]:[grid-area:1/1]">
+      {words.map((word) => (
+        <span
+          key={word}
+          aria-hidden
+          className={cn("invisible inline-block whitespace-nowrap", className)}
+        >
+          {word}
+        </span>
+      ))}
       <AnimatePresence initial={false}>
         <motion.span
           key={words[index]}
