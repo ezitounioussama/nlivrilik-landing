@@ -68,7 +68,6 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  icons: { icon: "/logo.png", apple: "/logo.png" },
   openGraph: {
     title: "NlivriLik — Livraison Express au Maroc",
     description:
