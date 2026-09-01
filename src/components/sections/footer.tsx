@@ -115,7 +115,17 @@ export function Footer() {
           <p>
             © {year} {site.name}. {t("footer.rights")}
           </p>
-          <p>{t("footer.madeIn")}</p>
+          <p>
+            {t("footer.builtBy")}{" "}
+            <a
+              href="https://gotodev.ma"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-foreground transition-colors hover:text-primary"
+            >
+              gotodev.ma
+            </a>
+          </p>
         </div>
       </div>
     </footer>
