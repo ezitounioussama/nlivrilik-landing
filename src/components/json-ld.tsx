@@ -1,4 +1,4 @@
-import { site } from "@/lib/site"
+import { cities, site } from "@/lib/site"
 import fr from "@/i18n/locales/fr.json"
 
 // Static FR structured data — matches the default server-rendered locale.
@@ -9,7 +9,7 @@ const localBusiness = {
   name: "NlivriLik",
   alternateName: "Nlivri Lik",
   description:
-    "Service de livraison express au Maroc : colis, courses, repas, médicaments et documents livrés en moins d'une heure à Rabat, Salé, Témara et Kénitra. Commande par WhatsApp.",
+    "Service de livraison express partout au Maroc : colis, courses, repas, médicaments et documents livrés en moins d'une heure à Casablanca, Rabat, Marrakech, Tanger, Agadir, Fès et dans toutes les villes du Maroc. Commande par WhatsApp.",
   url: site.url,
   logo: `${site.url}/logo.png`,
   image: `${site.url}/logo.png`,
@@ -23,10 +23,10 @@ const localBusiness = {
     addressRegion: "Rabat-Salé-Kénitra",
     addressCountry: "MA",
   },
-  areaServed: ["Rabat", "Salé", "Témara", "Kénitra"].map((city) => ({
-    "@type": "City",
-    name: city,
-  })),
+  areaServed: [
+    { "@type": "Country", name: "Maroc" },
+    ...cities.map((city) => ({ "@type": "City", name: city })),
+  ],
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: [
@@ -56,7 +56,7 @@ const localBusiness = {
     "Livraison de documents urgents et médicaments",
   ].map((name) => ({
     "@type": "Offer",
-    itemOffered: { "@type": "Service", name, areaServed: "Rabat-Salé-Kénitra, Maroc" },
+    itemOffered: { "@type": "Service", name, areaServed: "Maroc" },
   })),
 }
 

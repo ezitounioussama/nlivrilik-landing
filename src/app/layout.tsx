@@ -3,7 +3,7 @@ import { Bricolage_Grotesque, Cairo, Manrope } from "next/font/google";
 import "./globals.css";
 
 import { I18nProvider } from "@/components/i18n-provider";
-import { site } from "@/lib/site";
+import { cities, site } from "@/lib/site";
 
 const bricolage = Bricolage_Grotesque({
   variable: "--font-bricolage",
@@ -24,30 +24,33 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default:
-      "NlivriLik — Livraison Express Rabat, Salé & Maroc | Colis, Courses, Repas",
+      "NlivriLik — Livraison Express partout au Maroc | Colis, Courses, Repas",
     template: "%s · NlivriLik",
   },
   description:
-    "Service de livraison express n°1 à Rabat, Salé, Témara et Kénitra. Colis, courses, repas, médicaments et documents livrés en moins d'une heure. Commandez en un message WhatsApp — suivi en temps réel, paiement à la livraison, disponible 7j/7.",
+    "Service de livraison express n°1 partout au Maroc : Casablanca, Rabat, Marrakech, Tanger, Agadir, Fès et toutes les villes. Colis, courses, repas, médicaments et documents livrés en moins d'une heure. Commandez en un message WhatsApp — suivi en temps réel, paiement à la livraison, disponible 7j/7.",
   keywords: [
     "livraison express Maroc",
-    "livraison Rabat",
-    "livraison Salé",
-    "livraison Témara",
-    "livraison Kénitra",
-    "coursier Rabat",
+    "livraison tout le Maroc",
     "coursier Maroc",
+    "coursier Casablanca",
+    "coursier Rabat",
+    "coursier Marrakech",
     "livraison colis Maroc",
     "livraison courses à domicile",
-    "livraison repas Rabat",
+    "livraison repas Maroc",
     "livraison médicaments",
     "livraison documents urgents",
     "livraison WhatsApp",
     "e-commerce livraison Maroc",
     "توصيل سريع المغرب",
     "توصيل الرباط",
+    "توصيل الدار البيضاء",
+    "توصيل مراكش",
+    "توصيل طنجة",
     "NlivriLik",
     "Nlivrilik",
+    ...cities.map((city) => `livraison ${city}`),
   ],
   applicationName: "NlivriLik",
   category: "delivery service",
@@ -71,7 +74,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "NlivriLik — Livraison Express au Maroc",
     description:
-      "Colis, courses, repas et documents livrés en moins d'une heure à Rabat, Salé, Témara et Kénitra. Commandez en un message WhatsApp.",
+      "Colis, courses, repas et documents livrés en moins d'une heure, partout au Maroc. Commandez en un message WhatsApp.",
     url: site.url,
     siteName: "NlivriLik",
     locale: "fr_MA",
@@ -85,8 +88,8 @@ export const metadata: Metadata = {
       "Colis, courses, repas et documents livrés en moins d'une heure. Commandez sur WhatsApp.",
   },
   other: {
-    "geo.region": "MA-RSK",
-    "geo.placename": "Rabat, Salé, Témara, Kénitra",
+    "geo.region": "MA",
+    "geo.placename": "Maroc",
   },
 };
 

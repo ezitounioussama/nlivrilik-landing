@@ -35,7 +35,7 @@ src/
 
 ## SEO
 
-- Rich metadata + Open Graph + Twitter cards in `src/app/layout.tsx` (FR keywords for Rabat/Salé/Témara/Kénitra + Arabic terms)
+- Rich metadata + Open Graph + Twitter cards in `src/app/layout.tsx` (FR keywords for all major Moroccan cities — list in `src/lib/site.ts` — + Arabic terms)
 - JSON-LD structured data (`LocalBusiness`, `WebSite`, `FAQPage`) in `src/components/json-ld.tsx`
 - `src/app/sitemap.ts` → `/sitemap.xml`, `src/app/robots.ts` → `/robots.txt` (AI crawlers allowed)
 - `public/llms.txt` for AI answer engines

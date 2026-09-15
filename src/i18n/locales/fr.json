@@ -98,7 +98,7 @@
     "items": [
       {
         "q": "Dans quelles villes livrez-vous ?",
-        "a": "Nous couvrons Rabat, Salé, Témara, Kénitra et leurs environs. Pour une autre destination, contactez-nous sur WhatsApp — on trouve toujours une solution."
+        "a": "Nous livrons partout au Maroc : Casablanca, Rabat, Salé, Marrakech, Tanger, Agadir, Fès, Meknès, Oujda, Kénitra, Tétouan et toutes les autres villes du Royaume. Envoyez-nous votre destination sur WhatsApp et on s'occupe du reste."
       },
       {
         "q": "Combien coûte une livraison ?",
@@ -130,7 +130,7 @@
     "contactTitle": "Contact",
     "followTitle": "Suivez-nous",
     "whatsapp": "WhatsApp",
-    "location": "Rabat · Salé · Témara · Kénitra",
+    "location": "Casablanca · Rabat · Marrakech · Tanger · partout au Maroc",
     "rights": "Tous droits réservés.",
     "builtBy": "Réalisé par"
   },

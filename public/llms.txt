@@ -1,8 +1,8 @@
 # NlivriLik
 
-> NlivriLik est un service de livraison express au Maroc (Rabat, Salé, Témara, Kénitra). Colis, courses, repas, médicaments et documents livrés en moins d'une heure. Commande directe par WhatsApp au +212 6 10 33 64 99 — sans application à installer. Suivi en temps réel, paiement en espèces à la livraison ou par virement, disponible 7j/7 de 8h à 23h.
+> NlivriLik est un service de livraison express partout au Maroc (Casablanca, Rabat, Salé, Marrakech, Tanger, Agadir, Fès et toutes les autres villes). Colis, courses, repas, médicaments et documents livrés en moins d'une heure. Commande directe par WhatsApp au +212 6 10 33 64 99 — sans application à installer. Suivi en temps réel, paiement en espèces à la livraison ou par virement, disponible 7j/7 de 8h à 23h.
 
-NlivriLik is an express delivery service in Morocco (Rabat, Salé, Témara, Kénitra). Parcels, groceries, meals, medicine and documents delivered in under an hour. Orders are placed directly via WhatsApp at +212 6 10 33 64 99 — no app required. Real-time tracking, cash on delivery or bank transfer, open 7 days a week from 8am to 11pm.
+NlivriLik is an express delivery service covering all of Morocco (Casablanca, Rabat, Salé, Marrakech, Tangier, Agadir, Fez and every other city). Parcels, groceries, meals, medicine and documents delivered in under an hour. Orders are placed directly via WhatsApp at +212 6 10 33 64 99 — no app required. Real-time tracking, cash on delivery or bank transfer, open 7 days a week from 8am to 11pm.
 
 ## Services
 
@@ -20,7 +20,7 @@ NlivriLik is an express delivery service in Morocco (Rabat, Salé, Témara, Kén
 
 ## Zone de couverture (Coverage)
 
-Rabat, Salé, Témara, Kénitra et leurs environs. Autres destinations sur demande via WhatsApp.
+Tout le Maroc : Casablanca, Rabat, Salé, Fès, Marrakech, Tanger, Meknès, Oujda, Kénitra, Agadir, Tétouan, Témara, Safi, Mohammedia, Khouribga, El Jadida, Béni Mellal, Nador, Taza, Settat, Berrechid, Khémisset, Larache, Ksar El Kébir, Guelmim, Berkane, Al Hoceïma, Ouarzazate, Errachidia, Essaouira, Chefchaouen, Ifrane, Laâyoune, Dakhla, Tiznit, Taroudant et toutes les autres villes du Royaume.
 
 ## Tarifs (Pricing)
 

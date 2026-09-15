@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "NlivriLik — Livraison express au Maroc",
     short_name: "NlivriLik",
     description:
-      "Colis, courses, repas et documents livrés en moins d'une heure à Rabat, Salé, Témara et Kénitra. Commandez en un message WhatsApp.",
+      "Colis, courses, repas et documents livrés en moins d'une heure, partout au Maroc. Commandez en un message WhatsApp.",
     start_url: "/",
     display: "standalone",
     background_color: "#fdfbf6",

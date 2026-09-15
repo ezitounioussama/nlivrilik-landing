@@ -98,7 +98,7 @@
     "items": [
       {
         "q": "Which cities do you deliver to?",
-        "a": "We cover Rabat, Salé, Témara, Kénitra and their surroundings. For any other destination, message us on WhatsApp — we always find a solution."
+        "a": "We deliver all over Morocco: Casablanca, Rabat, Salé, Marrakech, Tangier, Agadir, Fez, Meknes, Oujda, Kenitra, Tetouan and every other city in the Kingdom. Send us your destination on WhatsApp and we handle the rest."
       },
       {
         "q": "How much does a delivery cost?",
@@ -130,7 +130,7 @@
     "contactTitle": "Contact",
     "followTitle": "Follow us",
     "whatsapp": "WhatsApp",
-    "location": "Rabat · Salé · Témara · Kénitra",
+    "location": "Casablanca · Rabat · Marrakech · Tangier · all over Morocco",
     "rights": "All rights reserved.",
     "builtBy": "Built by"
   },
