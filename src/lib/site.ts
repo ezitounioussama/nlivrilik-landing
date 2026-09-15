@@ -50,6 +50,14 @@ export const cities = [
   "Taroudant",
 ] as const
 
+// "Ksar El Kébir" -> "ksar-el-kebir" — used for /livraison-<slug> city pages.
+export const citySlug = (city: string) =>
+  city
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+
 export const waLink = (text?: string) =>
   `https://wa.me/${site.whatsappNumber}${
     text ? `?text=${encodeURIComponent(text)}` : ""

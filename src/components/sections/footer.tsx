@@ -10,13 +10,14 @@ import {
   WhatsAppIcon,
 } from "@/components/icons"
 import { useI18n } from "@/i18n"
-import { site, waLink } from "@/lib/site"
+import { cities, citySlug, site, waLink } from "@/lib/site"
 
+// "/#" (not "#") so the anchors also work from the /livraison-<ville> pages.
 const LINKS = [
-  { key: "services", href: "#services" },
-  { key: "how", href: "#how" },
-  { key: "testimonials", href: "#testimonials" },
-  { key: "faq", href: "#faq" },
+  { key: "services", href: "/#services" },
+  { key: "how", href: "/#how" },
+  { key: "testimonials", href: "/#testimonials" },
+  { key: "faq", href: "/#faq" },
 ] as const
 
 const SOCIALS = [
@@ -106,6 +107,26 @@ export function Footer() {
               <MapPin className="size-4 shrink-0 text-primary" />
               {t("footer.location")}
             </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-t border-border/60">
+        <div className="mx-auto max-w-6xl px-4 py-6">
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+            {t("footer.citiesTitle")}
+          </h3>
+          <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">
+            {cities.map((city) => (
+              <li key={city}>
+                <a
+                  href={`/livraison-${citySlug(city)}`}
+                  className="text-xs text-muted-foreground transition-colors hover:text-primary"
+                >
+                  {city}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
